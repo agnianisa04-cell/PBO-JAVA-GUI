@@ -11,7 +11,6 @@
 •	JLabel (lblJudul, lblNama, lblNim, lblProdi, lblStatus): Menampilkan teks statis, baik sebagai judul form ("INPUT DATA MAHASISWA" dengan font Arial Bold 16pt) maupun label penjelas untuk setiap kolom input.
 •	JTextField (txtNama, txtNim): Kolom input teks satu baris untuk mengisi Nama Lengkap dan NIM mahasiswa, serta direset kembali menjadi string kosong ("") saat tombol Reset diklik.
 •	JComboBox<String> (cmbProdi): Komponen dropdown pilihan program studi ("Teknik Informatika", "Teknik Elektro", "Teknik Sipil", "Teknik Mesin"), yang nilai terpilihnya diambil lewat getSelectedItem() dan dikembalikan ke indeks 0 saat di-reset.
-
 •	JCheckBox (chkSetuju): Kotak centang konfirmasi ("Data sudah benar") yang statusnya diperiksa melalui isSelected() sebelum data disimpan dan dikosongkan (false) saat di-reset.
 •	JButton (btnSimpan, btnReset): Tombol aksi interaktif untuk memproses penyimpanan data (Simpan) dan mengembalikan seluruh isian form ke kondisi awal (Reset).
 
